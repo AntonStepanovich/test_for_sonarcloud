@@ -1,7 +1,10 @@
-"""gravity_shape"""
+"""calculate gravity shape"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
+
+pritn("I am gonna show you gravity shape")
 
 # Создаем плоскую сетку
 x = np.arange(0, 11, 1)  # от 0 до 10 включительно
